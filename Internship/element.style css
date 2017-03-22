@@ -1,0 +1,60 @@
+html , body{
+    margin: 0px;
+}
+
+* {
+    font-family: Brandon Grotesque ;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(.../Brandon%20Grotesque/Brandon_reg.otf.woff);
+}
+
+#Nav{
+    width:100%;
+    height: 50px;   
+    text-align: center;
+    background-color: rgb(75,59,125);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+#navbar{
+    
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    font-family: Times 
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    
+}
+
+
+#navbar ul, li{
+    height: auto;
+    min-height: 
+    text-align: center;
+    display: inline;
+    padding-right: 15px;
+  
+
+}
+
+
+#navbar li a{
+    text-decoration: none;
+        color: white;
+    
+}
+ #menu{
+    padding-bottom: 25px;
+    padding-top: 15px;
+    padding-right: 15px;
+    float: right;
+    position: relative; 
+ }
+ 
