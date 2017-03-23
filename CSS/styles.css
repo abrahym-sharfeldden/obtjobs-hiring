@@ -6,11 +6,11 @@ html , body{
 }
 
 * {
-    font-family: myFirstFont ;
+    font-family: 'myFirstFont';
 }
 
 @font-face {
-    font-family: myFirstFont;
+    font-family: 'myFirstFont';
     src: url(file:///Volumes/USB%20DISK/OBT%20PROJECT/Brandon%20Grotesque/Brandon_reg.otf);
 }
 
