@@ -11,7 +11,7 @@ html , body{
 
 @font-face {
     font-family: 'myFirstFont';
-    src: url(file:///Volumes/USB%20DISK/OBT%20PROJECT/Brandon%20Grotesque/Brandon_reg.otf);
+    src: url(../fonts/brandon-grot/Brandon_reg.otf);
 }
 
 #Nav{
@@ -64,7 +64,7 @@ html , body{
  #content{
     width: 100%;
     height: auto;
-    background-image: url(file:///Volumes/USB%20DISK/OBT%20PROJECT/Pictures/Debate-Day-Group.jpg);
+    background-image: url(../images/Debate-Day-Group.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
  }
