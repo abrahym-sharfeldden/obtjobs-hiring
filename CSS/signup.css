@@ -62,10 +62,7 @@ html , body{
  }
 
 
-
-@import url(https://fonts.googleapis.com/css?family=Roboto:300);
-
-.login {
+.signup {
   width: 60%;
   padding: 8% 0 0;
   margin: auto;
@@ -79,7 +76,6 @@ html , body{
   text-align: center;
 }
 input {
-  font-family: "Roboto";
   background: #f2f2f2;
   width: 100%;
   border: 0;
@@ -91,8 +87,15 @@ input {
 input:focus{
   background-color: rgba(75,59,125, .9);
 }
+#left{
+  width: 49%;
+  float: left;
+}
+#right{
+ width: 49%;
+ float: right;
+}
 button {
-  font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   outline: 0;
   background-color: rgb(75,59,125);
@@ -113,5 +116,5 @@ button {
   text-decoration: none;
 }
 body {
-background-color: rgb(75,59,125);
+  background-color: rgb(75,59,125);   
 }
