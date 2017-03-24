@@ -3,12 +3,12 @@ html , body{
 }
 
 * {
-    font-family: Brandon Grotesque ;
+    font-family: myFirstFont;
 }
 
 @font-face {
     font-family: myFirstFont;
-    src: url(.../Brandon%20Grotesque/Brandon_reg.otf.woff);
+    src: url(Brandon_reg.otf);
 }
 
 #Nav{
@@ -59,7 +59,6 @@ html , body{
  }
  
  #sign-in{
-    
     display: inline-grid;
     justify-content: all;
  }
@@ -69,12 +68,25 @@ text-align: center;
 }
 
 #avatar-img{
+    display: inline-block;
+    width: 47%;
+    vertical-align: top;
     text-align: center;
+
+}
+
+#name{
+    
 }
 
 #about{
     text-align: center;
     justify-content: all;
+}
+
+#Edit{
+    text-align: center;
+
 }
 
 #Bio{
@@ -84,10 +96,43 @@ text-align: center;
     display: inline-block;
 }
 
-#name{
+#personal-info{
+    display: inline-block;
+    width: 50%;
+}
 
+#page-info{
+    background: white;
+    width: 75%;
+    margin: auto;
+}
+
+#sign-in{
+    padding-left: 750px;
+}
+
+#icons img{
+width: 50px;
+height: 50px;
+position: relative;
+}
+
+#icons{
+    text-align: center;
 }
 
 body{
-background: 
+background: rgb(75,59,125);  
+}
+
+button {
+    text-transform: uppercase;
+  outline: 0;
+  background-color: rgb(75,59,125);
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
 }

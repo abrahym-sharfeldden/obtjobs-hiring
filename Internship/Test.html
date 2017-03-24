@@ -22,96 +22,101 @@
 
 
 
-  <li>
-  <a href="#" id="sign-in"> Signed in as <em>Kenyai</em></a>
-  </li>
-    </ul>
+  
+  <a href="#" id="sign-in"> Signed in as <em id="name2">Kenyai</em></a>
+  
 </nav>
+
+<div class="container" id="page-info">
 <div class="container">
   <div class="page-header" id="page-header">
     <h1>Profile Page <small>view and edit all your profile details here.</small></h1>
+ 
+    <br><br>
   </div>
 
               <div class="avatar-img" id="avatar-img">
                 <img src="https://www.watch2gether.com/assets/w2guser-default-4cd04e39cfd59017ebad065028b8af9dfca8499a45a7b19ec20b1c478a751a77.png" alt="avatar" class="img-circle" />
-                <br>
+                <br><br>
+               
+                <form action="/action_page.php">
+  Select profile image: <input type="file" name="img" multiple size="40">
+                    <br><br>
               <h1 id="name">Kenyai Hill</h1>
-              </div>
+               </div>
               <!--end of avatar div-->
-            
-            <div class="col-md-8" id="about">
-              <h1 class="text-primary" id="Bio">Bio</h1>
-              <fieldset>
-              <legend>Example</legend>
-              <br>
-              <p>Add personality to your profile! Tell the community about yourself, your skills, and your profession.</p>
-              
-                </fieldset>
-                <!---beginning of personal info-->
 
+              <!---beginning of personal info-->
+
+               <div class="row" id="personal-info">
                 <h1>Personal Info</h1>
                 <form>
                   
 
                   <fieldset>
                     <legend>About Me</legend>
-                    <br>
-                    <div id="E-mail">
+                    <div><form action="/action_page.php">First name:<br>
+                    <input type="text" name="firstname" size="40" placeholder="Frist name" id="button">
+                    <br><br></div>
+                     Last name:<br>
+                    <input type="text" name="lastname" size="40" placeholder="Last name" id="button">
+                    <br><br>
+                    <div id="email">
                     <label>E-mail or Username</label><br>
-                    <input type = "text"
-                           id = "myText"
-                           value = "Hey Ya'll" />
+                    <input type="text" id = "button" value = "" placeholder="E-mail or Username" size="40" />
                     <br><br></div>
-                    <div id="Password">
+                    <div id="password">
                     <label>Password</label><br>
-                    <input type = "password"
-                    id = "myPwd"
-                    value = "secret"/>
+                    <input type="password"
+                    id="button" value = "secret" size="40" />
                     <br><br></div>
-                    <div id="Skill1"><label>Skill 1.</label><br>
-                    <input type="text" name="Skills">
+                    <div id="button"><label>Skill 1.</label><br>
+                    <input type="text" name="Skills" size="40" placeholder="Skill 1">
                     <br><br></div>
-                    <div id="Skill2"><label>Skill 2.</label><br>
-                    <input type="text" name="Skill">
+                    <div id="button"><label>Skill 2.</label><br>
+                    <input type="text" name="Skill" size="40" placeholder="Skill 2">
                     <br><br></div>
                     <div><label>Skill 3.</label><br>
-                    <input type="text" name="Skill">
+                    <input type="text" name="Skill" size="40" placeholder="Skill 3" id="button">
                     <br><br></div>
-                    <div><form action="/action_page.php">First name:<br>
-                    <input type="text" name="firstname">
-                    <br><br></div>
-                    Last name:<br>
-                    <input type="text" name="lastname">
-                    <br><br>
-                    E-mail:<br>
-                    <input type="email" name="email">
-                    <br><br>
                     Phone:<br>
-                    <input type="tel" name="usrtel">
+                    <input type="tel" name="usrtel" size="40" placeholder="XXX-XXX-XXXX" id="button">
                     <br><br>
                     <input type="Submit" value="Submit">
                     <input type="reset">
+                    <br><br>
                   </form>
-                 </fieldset>
+                 </fieldset></div>
               </form>
             </div>
-            <br>
+            
+            <div class="col-md-8" id="about">
+              <h1 class="text-primary" id="Bio">Bio</h1>
+              <fieldset>
+              <legend>Text</legend>
+              <br>
+              <textarea rows="4" cols="50">Add personality to your profile! Tell the community about yourself, your skills, and your profession.</textarea>
+                              </fieldset>
+                
+
+
           </div>
-        
+        </div>
 
-    <div class="col-md-4">
-
-      <div class="well">
-        <button class="btn btn-info" id="Edit">Edit Profile</button>
-        <button class="btn btn-info" id="Github">Share on Github</button>
-        <button class="btn btn-info" id="Linkedin">Share on Linkedin</button>
+    
+      <br>
+      <div class="well" id="icons">
+        <a href="https://github.com/">
+        <img src="http://hammerjs.github.io/assets/img/github-icon.png"></a>
+        <a href="https://www.linkedin.com/">
+        <img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_color-512.png"></a>
       </div>
       <div class="well">
         <ul class="list-group">
           <li class="list-group-item"></li>
         </ul>
       </div>
-    </div>
+    
   </div>
 
 
