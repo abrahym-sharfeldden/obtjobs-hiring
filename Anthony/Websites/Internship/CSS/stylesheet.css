@@ -1,0 +1,226 @@
+body {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+}
+
+header {
+	height: 71px;
+	width: 100%;
+	background-color: #605191;
+}
+
+* {
+	font-family: myFirstFont;
+}
+
+@font-face {
+	font-family: myFirstFont;
+	src: url(file:///Users/anthonyflores/Documents/Anthony/Websites/Internship/Brandon%20Grotesque/Brandon_reg.otf);
+}
+
+#logo img {
+	height: 50px;
+	width: auto;
+}
+
+#content {
+	height: 1004px;
+	width: 100%;
+	background-color: #605191;
+}
+
+
+
+#image img {
+	height: 604px;
+	width: 100%;
+}
+
+#profiles {
+	height: 604px;
+	width: 100%;
+	text-align: center;
+}
+
+.trainees {
+	height: 453px;
+    width: 315px;
+    background-color: white;
+    z-index: 1;
+    display: inline-table;
+    margin: 20px;
+    border-radius: 20px;
+
+   
+}
+
+.trainees img {
+	height: 178px;
+	border-radius: 100%
+}
+
+.trainees h5{
+	font-size: 24px;
+	color: black;
+
+}
+
+.trainees p{
+	font-size: 20px;
+	color: black;
+}
+
+#buttons {
+	
+	
+	text-align: center;
+
+}
+
+.button {
+	display: inline-block;
+    background-color: #605191;
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 75px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+
+}
+
+#hire {
+	height: 584px;
+	width: 100%;
+	color: #605191;
+	position: relative;
+}
+
+#graduates {
+	text-align: center;
+}
+
+#skills {
+	text-align: left;
+	position: absolute;
+	top: 80px;
+	left: 90px;
+	width: 503px;
+	font-size: 20px;
+}
+
+#experience {
+	text-align: left;
+	position: absolute;
+	top: 260px;
+	left: 90px;
+	width: 490px;
+	font-size: 20px;
+}
+
+#invest {
+	text-align: left;
+	position: absolute;
+	top: 410px;
+	left: 90px;
+	width: 490px;
+	font-size: 20px;
+}
+
+#testimonial_top {
+	text-align: center;
+	color: #605191;
+}
+
+#testimonials {
+	height: 742px;
+	width: 49%;
+	color: #605191;
+	display: inline-block;
+    vertical-align: top;
+}
+
+#testimonials2 {
+	height: 742px;
+	width: 49%;
+	color: #605191;
+	display: inline-block;
+	margin-left: 21px;
+}
+
+.testimonial p {
+	font-size: 20px;
+	padding-bottom: 0px;
+	height: auto;
+	width: 50%;
+}
+
+testimonial img { 
+height: auto;
+width: auto;
+margin-bottom: 15px;
+ }
+
+#content3 {
+	padding: 27px;
+	display: inline;
+}
+
+#footer {
+	background-color: #605191;
+	height: auto;
+}
+
+.menu {
+	display: inline-block;
+	width: 50%;
+    padding: 0; 
+    vertical-align: top;
+
+ 
+}
+
+.menu-item {
+	   display: inline-block;
+
+}
+
+.menu-item  li {
+	list-style-type: none;
+    height: 80px;
+    width: 127px;
+    text-align: center;
+    border-right: solid 1px #FFFFFF;
+    color: white;
+    
+}
+ #search{
+    width: 49%;
+    margin: 0px;
+    display: inline-block;
+}
+#tdd p {
+	font-size: 18px;
+	letter-spacing: 0.3px;
+	color: white;
+;
+}
+
+input{
+	margin-top: 40px;
+	height: 26px;
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 100%;
+}
+
+#bad{
+	position: relative;
+	top:23px;
+}
+
