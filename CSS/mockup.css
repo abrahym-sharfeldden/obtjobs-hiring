@@ -1,0 +1,170 @@
+html , body{
+  margin: 0px;
+    height: 1024px;
+    width: 100%;
+    position: absolute;
+   
+}
+
+* {
+    font-family: myFirstFont;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(../font/Brandon_reg.otf);
+}
+
+#Nav{
+  width:100%;
+  height: 50px; 
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(75,59,125);
+}
+
+
+#navbar{
+  
+  width: 100%;
+    height: 100%;
+    font-size: 15px;
+    font-family: Times 
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    
+}
+
+
+#navbar ul, li{
+    height: auto;
+    text-align: center;
+    display: inline;
+    padding-right: 15px;
+  
+
+}
+
+#navbar li a{
+  text-decoration: none;
+    color: white;
+}
+
+#menu{
+  padding-bottom: 25px;
+    padding-top: 15px;
+    padding-right: 15px;
+  float: right;
+  position: relative; 
+}
+
+body {
+  background-color: white;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+h1,h2 {
+  background-color: rgb(75,59,125);
+  margin: 0;
+  padding: 2%;
+}
+button {
+  background-color: #c6ce45;
+  color: white;
+  margin-bottom: 1%;
+  outline: 0;
+  border: 0;
+  padding: 15px;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+
+
+
+
+#cool{
+  background-color: rgb(75,59,125);
+  outline: 0;
+  border: 0;  
+}
+.content{
+  width: 100%;
+  margin:0;
+  padding:0;
+  color:white;
+}
+.content-container{
+  margin-top:25px;
+}
+.profile-container{
+  width:60%;
+  height:300px;
+  margin:auto;
+}
+.profile-picture{
+  z-index: 1;
+  float: left;
+}
+.profile-picture img{
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+}
+.profile-info{
+  width:75%;
+  margin-left: 10%; 
+  padding-top: 4%;
+}
+
+
+
+
+
+
+
+
+
+
+#profile {
+  width: 100%;
+  margin-top: 6%;
+}
+#box {
+  width:20%;
+  margin-left: 15%;
+}
+#picture {
+  width: 100%;
+  float: left;
+  z-index: 1;
+}
+#picture img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+#box2 {
+  color: white;
+  width: 55%;
+  margin-top: 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+  min-width: 300px;
+  height: 200px;
+  z-index: -1;
+  text-align: center;
+  padding-top: 4%;
+}
+
+
+
+
+
