@@ -11,12 +11,12 @@ header {
 }
 
 * {
-	font-family: myFirstFont;
+	font-family: 'myFirstFont';
 }
 
 @font-face {
-	font-family: myFirstFont;
-	src: url(file:///Users/anthonyflores/Documents/Anthony/Websites/Internship/Brandon%20Grotesque/Brandon_reg.otf);
+	font-family: 'myFirstFont';
+	src: url(../fonts/brandon-grot/Brandon_reg.otf);
 }
 
 #logo img {
