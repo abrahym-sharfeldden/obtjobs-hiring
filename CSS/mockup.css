@@ -12,7 +12,7 @@ html , body{
 
 @font-face {
     font-family: myFirstFont;
-    src: url(../font/Brandon_reg.otf);
+    src: url(../fonts/brandon-grot/Brandon_reg.otf);
 }
 
 #Nav{
@@ -79,10 +79,10 @@ button {
   margin-bottom: 1%;
   outline: 0;
   border: 0;
-  padding: 15px;
-  color: white;
+  padding: 5px;
+  color: black;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 16px;
   margin-right: 20px;
 }
 
