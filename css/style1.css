@@ -64,9 +64,10 @@ html , body{
  #content{
     width: 100%;
     height: auto;
-    background-image: url(../images/Debate-Day-Group.jpg);
+    background-color: rgb(75,59,125);
+    /*background-image: url(../images/Debate-Day-Group.jpg);
     background-size: 100% 100%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
  }
  /* ADD min height at 500px so there will be enought space*/
 
@@ -108,11 +109,12 @@ html , body{
 .profile_div{
     height: 380px;
     width: 350px;
-    background-color: red;
     display: inline-block;
     margin: 20px 12px;
-    color: white;
-    border: 1px white solid;
+    color: black;
+    border: 1px black solid;
+    background-color: white;
+    padding-bottom: 20px;
     
 }
 
@@ -129,6 +131,7 @@ html , body{
     width: 183px;
     height: 175px;
 }
+/*
 .green{
     background-color: rgba(186,199,54,.8);
 }
@@ -137,7 +140,7 @@ html , body{
 }
 .purp{
     background-color: rgba(75,59,125,.8);
-}
+}*/
  .Foot_Tab{
     margin: 18px 30px;
     padding-left: 20px;
