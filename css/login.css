@@ -63,50 +63,50 @@ html , body{
 
 
 
-@import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
 .login {
-  width: 60%;
+  width: 40%;
   padding: 8% 0 0;
   margin: auto;
 }
 .form {
   position: relative;
   background: white;
-  max-width: 90%;
-  margin: 0 auto 100px;
-  padding: 45px;
+  max-width: 70%;
+  margin: 0 auto 50px;
+  padding: 1%;
   text-align: center;
+  box-shadow: 100px 50px 50px black;
 }
 input {
-  font-family: "Roboto";
   background: #f2f2f2;
-  width: 100%;
+  width: 90%;
   border: 0;
-  margin: 15px 0;
-  padding: 15px;
+  margin: 15px 5%;
+  padding: 3%;
   box-sizing: border-box;
   font-size: 14px;
 }
 input:focus{
+  color: white;
   background-color: rgba(75,59,125, .9);
 }
 button {
-  font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   outline: 0;
   background-color: rgb(75,59,125);
-  width: 100%;
+  width: 90%;
   border: 0;
   padding: 15px;
   color: white;
   cursor: pointer;
   font-size: 14px;
+  margin: 4% 0;
 }
 .message {
   margin: 15px 0 0;
   color: grey;
-  font-size: 12px;
+  font-size: 16px;
 }
 .message a {
   color: blue;
@@ -114,4 +114,7 @@ button {
 }
 body {
 background-color: rgb(75,59,125);
+}
+p {
+  padding-bottom: 3%;
 }
