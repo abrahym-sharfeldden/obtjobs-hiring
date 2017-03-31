@@ -1,12 +1,12 @@
  html, body {
-    margin: 25px;
+    margin: 0px;
 }
 * {
     font-family: myFirstFont;
 }
 @font-face {
     font-family: myFirstFont;
-    src: url(Brandon_reg.otf);
+    src: url(../fonts/brandon-grot/Brandon_reg.otf);
 }
 #Nav {
     width: 100%;
@@ -141,7 +141,7 @@ a:hover {
     display: inline-block;
 }
 .profile img {
-    width: 90px;
+    width: 94px;
     height: 90px;
     border-radius: 50%;
     border-right: 25px;
@@ -225,18 +225,18 @@ a:hover {
 
 /* Edit Button */
 
-.btn {
+.btn{
     text-align: center;
 }
-a.btn {
+a.btn{
     color: #fffffa;
     text-decoration: none;
 }
-a.btn:hover {
+a.btn:hover{
     text-decoration: none;
     cursor: pointer;
 }
-.btn-follow {
+.btn-follow{
     background: #000000;
     height: 32px;
     width: 25%;
@@ -249,6 +249,24 @@ a.btn:hover {
     line-height: 34px;
     border-radius: 2px;
     border-bottom: 1px solid #006D59;
+}
+
+#edit-btn{
+    background: #000000;
+    height: 32px;
+    width: 25%;
+    display: block;
+    margin: auto;
+    bottom: 1.25em;
+    left: 25%;
+    font-size: .8em;
+    font-weight: 700;
+    line-height: 34px;
+    border-radius: 2px;
+    border-bottom: 1px solid #006D59;
+    color: #fffffa;
+    text-decoration: none;
+    margin-right: 6%;
 }
 
 /* End of Card CSS*/
