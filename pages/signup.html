@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title></title>
+
   <link rel="stylesheet" href="../css/signup.css">
 </head>
 
@@ -24,17 +25,54 @@
   <div class="signup">
     <div class="form">
       <h1>Create an Account</h1>
+      <h3>For Employers</h3>
       <form class="login-form">
-        <input class="left" type="text" placeholder="First Name"/>
-        <input class="right" type="text" placeholder="Last Name"/>
-        <input class="left" type="username" placeholder="User Name"/>
-        <input class="right" type="email" placeholder="Email Address"/>
-        <input class="left" type="password" placeholder="Password"/>
-        <input class="right" type="password" placeholder="Confirm Password"/>
+      <select id="Prefixes">
+        <option>Mr.</option>
+        <option>Mrs.</option>
+        <option>Ms.</option>
+      </select>
+        <input class="left" type="First Name" placeholder="First Name"/>
+        <input class="right" type="Last Name" placeholder="Last Name"/>
+        <input class="left" type="Industry" placeholder="Work Sector"/>
+        <input class="right" type="Company Name" placeholder="Company Name"/>
+        <input class="left" type="Position" placeholder="Work Title"/>
+        <input class="right" type="Department" placeholder="Work Department"/>
+        <input class="left" type="Email" placeholder="Email Address"/>
+        <input class="right" type="password" placeholder="Password"/>
+        <input class="left" type="password" placeholder="Confirm Password"/>
         <button type="submit">Create Account</button>
         <p class="message">Already registered? <a href="login.html">Login</a></p>
       </form>
     </div>
   </div>
+
+  <script type="text/javascript">
+      <div id="passwordjs">
+        var password;
+        var pass1="test";
+        var repeat=true;
+
+        do 
+        {
+          password=prompt('Please enter password','');
+          if (password==pass1)
+          {
+            alert('Password is correct! Click OK to proceed');
+            window.location.href="file:///C:/Users/heckone/Downloads/obtjobs-hiring-master(2)/obtjobs-hiring-master/pages/signup.html";
+            repeat=false;
+          }
+          else if (password==null){
+            window.location.href="file:///C:/Users/heckone/Downloads/obtjobs-hiring-master(2)/obtjobs-hiring-master/pages/signup.html";
+            repeat=false;
+          }
+          else
+          {
+            alert('Password incorrect! Please re-enter password');
+            password = null;
+          }
+        } while (repeat);</script>
+      </div>
+
 </body>
 </html>
