@@ -90,7 +90,13 @@ x;
 	margin-top: 4%;
 }
 
-
+.span-seperator{
+	border-top: 1px solid black);
+	width:80%;
+	height: 5px;
+	display: block;
+	position: absolute;
+}
 
 .profilecontainer{
 	background-color: grey;
@@ -102,7 +108,7 @@ x;
 .col-sm-8-text-left{
 	height: auto;
 	width: 75%;
-	
+	padding: 35px;
 }
 
 /*.name{
@@ -124,19 +130,19 @@ x;
 	height: 100%;
 }
 
-.well{
+.footer{
 	bottom:87%;
 }
 
 .Experience{
-	padding-top: 250vpx;
+	padding-top: 25px;
 	width: 80%
 
 }
 footer{
 
-	background-color: rgb(75,59,125);
-	color:white;
+	
+	color:black;
 	padding: 15px;
 
 }

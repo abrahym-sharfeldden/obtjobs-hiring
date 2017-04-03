@@ -62,90 +62,9 @@ html , body{
 }
 
 body {
-  background-color: white;
+  background-color:rgb(75,59,125) ;
+  height: 
 }
-
-
-
-
-
-
-
-
-
-#filter {
-	background-color: rgb(75,59,125);
-	text-align: center;
-	color: white;
-	font-size: 28px;
-	padding-top: 1%;
-	margin-bottom: 1%;
-}
-#filter-content {
-	color: black;
-	width: 100%;
-	height: 300px;
-	display: inline-block;
-	margin: 0 4%;
-}
-#filter-content p {
-	border-bottom: 1px solid black;
-}
-#filter-content ul {
-	text-align: left;
-}
-#first-filter {
-	width: 30%;
-	height: 90%;
-	border: 1px solid black;
-	float: left;
-	background-color: white;
-	margin-right: 1%;
-}
-#second-filter {
-	width: 30%;
-	height: 90%;
-	border: 1px solid black;
-	float: left;
-	background-color: white;
-	margin-right: 1%;
-}
-#third-filter {
-	width: 30%;
-	height: 90%;
-	border: 1px solid black;
-	float: left;
-	background-color: white;
-}
-#filter-content li {
-	font-size: .5em;
-}
-
-
-
-
-
-
-
-
-
-#onfilter {
-	margin: 0 0 1% 1%;
-}
-#onfilter li {
-	margin-left: 1%;
-}
-#onfilter img {
-	width: 1%;
-}
-#onfilter a {
-	color: black;
-}
-
-
-
-
-
 
 
 
@@ -156,80 +75,80 @@ body {
 
 
 .content{
-	width: 100%;
+	width: 75%;
+	height: auto;
 	margin: 0 0 0 1%;
-	padding:0;
 	color: black;
+	background-color: white;
 	font-family: 'mySecondFont';
+	margin: auto;
+	position: relative;
+	top:5%;
+	box-shadow: 20px 20px 10px black;
 }
-.profile-container{
-	width: 100%;
-	height:300px;
-	margin: 0;
-	margin-left: 15%;
-}
-.profile-picture{
-	z-index: 1;
-	float: left;
-}	
-.profile-picture img{
-	width: 200px;
-	height: 200px;
-	border: 1px solid black;
-}
-.profile-info{
-	width: 40%;
-	height: 200px;
-	border: 1px solid black;
-	border-right: none;
-	text-align: center;
-	float: left;
-	background-color: rgba(230, 230, 230, 0.5);
-}
-#links{
-	width: 10%;
-	height: 200px;
-	float: left;
-	border: 1px solid black;
-	border-left: none;
-	text-align: center;
-	background-color: rgba(230, 230, 230, 0.5);
-}
-#links img {
-	width: 50%;
-	margin-top: 10%;
-}
-.profile-info-container{
-	background-color: white;
-	margin: 0;
-	font-size: .8em;
-}
-#cool{
-	background-color: white;
-	outline: 0;
-	border: 0;
-	margin-top: 3%;
-}
-#cool button {
-	background-color: #c6ce45;
-	color: white;
-	margin-bottom: 1%;
-	outline: 0;
-	border: 0;
-	padding: 5px;
-	color: black;
-	cursor: pointer;
-	font-size: 16px;
-	margin-right: 20px;
+x;
 	margin-top: 4%;
 }
 
 
 
+.profilecontainer{
+	background-color: grey;
+	width: 75%
+	height:auto;
+	position:absolute;
+}
+
+.col-sm-8-text-left{
+	height: auto;
+	width: 75%;
+	
+}
+
+/*.name{
+	padding-top: 80px;
+	width: 50%;
+	float: right;
+	position: absolute;
+	box-shadow: 
+	8px 8px 8px black;
+	border-radius:2px;
+	}*/
 
 
+.row.content{height:450px;}
+
+.sidenav{
+	padding-top: 20px;
+	background-color: #f1f1f1;
+	height: 100%;
+}
+
+.well{
+	bottom:87%;
+}
+
+.Experience{
+	padding-top: 250vpx;
+	width: 80%
+
+}
+footer{
+
+	background-color: rgb(75,59,125);
+	color:white;
+	padding: 15px;
+
+}
 
 
+@media screen and (max-width: 767px){
+	.sidenav{
+		height: auto;
+		padding:15px;
+	}
+	.row.content{height:auto;}
+}
 
 
 

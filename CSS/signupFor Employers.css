@@ -103,17 +103,16 @@ input:focus{
 
 .left{
   width: 42%;
-  margin-left: 4%;
+  margin-right: 2%;
 }
 .right{
  width: 42%;
- margin-right: 2%;
 }
 button {
   text-transform: uppercase;
   outline: 0;
   background-color: rgb(75,59,125);
-  width: 90%;
+  width: 88%;
   border: 0;
   padding: 15px;
   color: white;
