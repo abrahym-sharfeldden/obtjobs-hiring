@@ -37,7 +37,7 @@
   <div class="container" id="page-info">
     <div class="container" id="page-metadata">
        <br>
-       <a  href="#" onclick="myFunction()" id="edit-btn">Edit</a>
+       <!--<a  href="#" onclick="myFunction()" id="edit-btn">View Profile</a>-->
       <h1 style="
       background: white;
       width: 400px;
@@ -47,7 +47,9 @@
       ">Personal Info</h1>
 		
       <div id="bg"></div>
+      
       <!-- Beginning of Card -->
+      
       <div class="row" id="personal-info">
         <div class="card">
           <div class="profile">
@@ -60,6 +62,7 @@
                 <p><a href="#">Kenyai Hill</a></p>
               </div>
             </div>
+            
             <table id="stats">
               <tbody>
                 <tr>
@@ -74,31 +77,51 @@
             </table>
           </div>
           <div class="numbers">
-            <label>E-mail:</label><br>
-            <input id="button" placeholder="E-mail" size="40" type="text" value="">
-            <br>
-            <br>
-            Phone:
-            <br>
-            <input id="button" name="usrtel" placeholder="XXX-XXX-XXXX" size="40" type="tel"><br>
-            <br>
-            <form action="/action_page.php">
-              Linkedin or Github:<br>
-              <input name="homepage" placeholder="example@gmail.com" size="40" type="url">
-         	<br>
-            <br>
-            <a class="btn btn-follow" href="#">Save</a>
+           
+         	<br><br>
+          <a class="btn btn-follow" href="#">View Profile</a>
           </div>
+        </div>
+        <br>
+        
+        <!---Education Info-->
+
+        <div class="education-info">
+        <fieldset>
+        <legend>Education</legend>
+        <label>Highschool</label>
+        <br>
+        <input type="text" name="school" placeholder="School name (ex: Brookly Tech)" size="40">
+        <br><br>
+        <form action="/action_page.php">
+        Gaduation Date:
+        <br>
+        <input type="date" name="grad-date" size="40">
+        <input type="submit">
+        </form>
+        <br>
+        <label>College</label>
+        <br>
+        <input type="text" name="degree" placeholder="ex: (Harvard University)" size="40">
+        <br><br>
+        <form action="/action_page.php">
+        Gaduation Date:
+        <br>
+        <input type="date" name="grad-date" size="40">
+        <input type="submit">
+
+
+        <br><br>
+        <a class="btn btn-follow" href="#">Save</a>
+        </fieldset>
         </div>
 
         <!---Resume Info-->
-        
         
         <div class="col-md-8" id="about">
           <h1 class="text-primary" id="Resume">Resume</h1>
           <fieldset>
             <legend id="upload">Work Experience</legend>
-            <br>
             <div class="container" id="resume-info">
             <div class="title-input">
             <br>
@@ -411,6 +434,14 @@
             <textarea cols="50" rows="4" class="Description">Add personality to your profile! Tell the community about yourself, your skills, and your profession!</textarea>
             </div>
             <br>
+             <label>E-mail:</label><br>
+            <input id="button" placeholder="example@gmail.com" size="40" type="text" value="">
+            <br>
+            <br>
+            <form action="/action_page.php">
+              Linkedin or Github:<br>
+              <input name="homepage" placeholder="Url" size="40" type="url">
+              <br><br>
             <a class="btn btn-follow" href="#">Save</a> <input id="myFile" onclick="myFunction()" type="file"> 
           </fieldset>
           
@@ -431,6 +462,8 @@
   </div>
 
   <!--Beginning of Footer-->
+
+
 
 </body>
 </html>
