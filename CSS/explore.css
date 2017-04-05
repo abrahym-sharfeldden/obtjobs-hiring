@@ -247,7 +247,32 @@ div .panel {
 	margin-top: 4%;
 }
 
+@media only screen and (max-width: 780px){
 
+	.profile-picture {
+		float: none;
+	}
+	.profile-picture img {
+		width:auto;
+		height:auto;
+	}
+	.profile-info {
+		width:50%;
+		float: none;
+	}
+
+	.content{
+		margin-bottom: 900px;
+	}
+
+
+
+
+
+
+
+
+}
 
 
 

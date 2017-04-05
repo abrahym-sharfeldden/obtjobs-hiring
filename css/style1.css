@@ -14,6 +14,12 @@ html , body{
     src: url(../fonts/brandon-grot/Brandon_reg.otf);
 }
 
+
+@font-face {
+    font-family: 'ass';
+    src: url(../fonts/brandon-grot/Brandon_thin.otf);
+}
+
 #Nav{
 	width:100%;
 	height: 50px;	
@@ -21,8 +27,11 @@ html , body{
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: rgb(75,59,125);
+    border-bottom: 2px black solid;
 }
-
+#content_title h1{
+    font-family: 'ass';
+}
 
 #navbar{
 	
@@ -82,6 +91,9 @@ html , body{
 
 #content_title{
     padding: 20px 0px;
+    font-size: 20px;
+    color: white;
+    
 
 }
 
@@ -96,11 +108,17 @@ html , body{
     text-decoration: none;
     float: right;
     color: white;
-    background-color: rgb(75,59,125);
+    background-color: rgb(186,199,54)   ;
     margin-right: 20px;
     border-radius: 20px;
     padding: 17px;
     
+}
+@media screen and (max-width: 500px){
+    #SignUpDiv a{
+        float: none;  
+    }
+
 }
 
 #SignUpDiv a:hover{
@@ -116,15 +134,40 @@ html , body{
     background-color: white;
     padding-bottom: 20px;
     cursor: pointer;
+    -webkit-transition: .5s;
+       -moz-transition: .5s;
+        -ms-transition: .5s;
+         -o-transition: .5s;
+            transition: .5s;
+    border-radius: 5px; 
     
 }
 
-.profile_div:hover{
-    background-color: gray;
- 
+
+#content_contanier:hover .profile_div{
     filter: blur(5px);
+    opacity: .25;
+    -webkit-transform: scale(.8);
+       -moz-transform: scale(.8);
+        -ms-transform: scale(.8);
+         -o-transform: scale(.8);
+            transform: scale(.8);
 
 }
+#content_contanier .profile_div:hover {
+    filter: none;
+    box-shadow: none;
+    opacity: 10;
+    -webkit-transform: scale(1.2);
+       -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+         -o-transform: scale(1.2);
+            transform: scale(1.2);
+}
+
+
+    
+
 
  #footer{
     width: 100%;
@@ -154,23 +197,43 @@ html , body{
     -webkit-animation-name: fadeIn; /* Fade in the background */
     -webkit-animation-duration: 0.4s;
     animation-name: fadeIn;
-    animation-duration: 0.4s
+    animation-duration: 0.4s;
 }
 
 .modal-content {
     background-color: #fefefe;
-    height: 560px;
-    width: 400px;
+    height: 350px;
+    width: 539px;
+    padding: 24px 80px;
     margin: auto;
     -webkit-animation-name: slideIn;
     -webkit-animation-duration: 0.4s;
     animation-name: slideIn;
-    animation-duration: 0.4s
+    animation-duration: 0.4s;
+    margin-top: 200px;
+    position: relative;
 }
 
 #myPopup{
     vertical-align: middle;
     
+}
+#myPopup span img{
+    float: left;
+    width: 191px;
+    border-radius: 100%;
+    bottom: 52px;
+    position: relative;
+}
+
+#myPopup h2{
+position: relative;
+    left: 92px;
+}
+#links img {
+    height: 50px;
+    width: 50px;
+    padding: 8px;
 }
 /*
 .green{

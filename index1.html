@@ -29,7 +29,7 @@
 				</div>
 				<div id="content_title"><h1>Hire OBT Gradutes</h1></div>
 				
-				<div class="profile_div" onclick="cat()">
+				<div id="box1" class="profile_div" ="cat()">
 					<h1 class="profile_info">John Doe</h1>
 					<img class="profile_info"src="images/file1_720.jpg">
 					<h3 class="profile_info">Web Design and Coding</h3>
@@ -68,17 +68,18 @@
 				
 				<div id="myModal" class="modal">				
 					<div id="myPopup" class="modal-content" style="vertical-align: middle;" >
-						<h1>Programmer</h1>	
-							<img src="images/file_720.jpg">
-							<P><strong>Photoshop<br>
-							PHP<br>
-							Javascript<br>
-							<br>Web Developer |Business Analyst |
-							 Music/Food Enthusiast| 
-							 Alum of Web Development Immersive-New York,NY|Account Manager|
-							 Analyst at St. John Knits</strong>
-							</p>
-							
+							<h1><strong>Maximiliano Martinez</strong>
+							<h2>Programmer</h2>
+							<span><img src="images/file_720.jpg"></span>
+							<p> "I am an aspiring Web Developer with an eye for detail and passion for efficient user experiences. 
+							I want to challenge myself at learning more advanced and technical languages."</p>
+							<div id="links">
+								<img src="images/phone.png">
+								<img src="images/email.png">
+								<img src="images/Linkedin_icon.png">
+								<img src="images/twt.png">
+								<img src="images/github-icon.png">
+							</div>
 				    </div>
 				</div>
 
@@ -93,8 +94,9 @@
 
 			var profiles = document.getElementsByClassName("profile_div");
 			var modal = document.getElementById("myModal");
+			var box = document.getElementById("box1");
 
-			 function cat() {
+			function cat() {
 	    		modal.style.display = "block";
 				}
 			window.onclick = function(event) {
@@ -102,7 +104,18 @@
 			        modal.style.display = "none";
 			    }
 
-}
+				}
+		
+			   /* for(i=0; i < profiles.length; i++){
+			    	profiles[i].onmouseover = function(){
+
+			    		this.style.filter = "blur(5px)";
+			    	}
+			    	profiles[i].onmouseout = function(){
+			    		this.style.filter = "none";
+			    	}
+
+			    }*/
 		</script>
 	</body>
 </html>
