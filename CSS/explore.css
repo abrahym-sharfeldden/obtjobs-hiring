@@ -2,9 +2,8 @@ html , body{
   margin: 0px;
     height: 1024px;
     width: 100%;
-    position: absolute;
-    overflow-x: hidden;
-   
+    position: abolute;
+	overflow-x: hidden;
 }
 
 * {
@@ -153,8 +152,8 @@ div .panel {
 
 #onfilter {
 	background-color: #c6ce45;
-	margin-bottom: 2%;
 	padding: .01%;
+	margin-bottom: 2%;
 }
 #onfilter li {
 	margin-left: 1%;
@@ -226,6 +225,7 @@ div .panel {
 	background-color: white;
 	margin: 0;
 	font-size: .8em;
+	max-height: 200px;
 }
 #cool{
 	background-color: white;
@@ -236,7 +236,7 @@ div .panel {
 #cool button {
 	background-color: #c6ce45;
 	color: white;
-	margin-bottom: 1%;
+	margin-bottom: 2%;
 	outline: 0;
 	border: 0;
 	padding: 5px;
@@ -247,33 +247,14 @@ div .panel {
 	margin-top: 4%;
 }
 
-@media only screen and (max-width: 780px){
-
-	.profile-picture {
-		float: none;
+@media only screen and (min-width: 1900px){
+	
+	#cool button {
+		margin-top: 1%;
+		margin-bottom: 1%;
 	}
-	.profile-picture img {
-		width:auto;
-		height:auto;
-	}
-	.profile-info {
-		width:50%;
-		float: none;
-	}
-
-	.content{
-		margin-bottom: 900px;
-	}
-
-
-
-
-
-
-
-
+	
 }
-
 
 
 
