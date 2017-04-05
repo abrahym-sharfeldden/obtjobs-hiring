@@ -76,7 +76,7 @@ html , body{
   margin: 0 auto 50px;
   padding: 1%;
   text-align: center;
-  box-shadow: 100px 50px 50px black;
+  box-shadow: 50px 25px 25px black;
 }
 input {
   background: #f2f2f2;
