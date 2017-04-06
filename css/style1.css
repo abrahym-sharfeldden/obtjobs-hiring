@@ -142,10 +142,10 @@ html , body{
     border-radius: 5px; 
     
 }
-
+/*
 
 #content_contanier:hover .profile_div{
-    filter: blur(5px);
+    background-color: gray;
     opacity: .25;
     -webkit-transform: scale(.8);
        -moz-transform: scale(.8);
@@ -155,7 +155,7 @@ html , body{
 
 }
 #content_contanier .profile_div:hover {
-    filter: none;
+    background-color:white;
     box-shadow: none;
     opacity: 10;
     -webkit-transform: scale(1.2);
@@ -165,7 +165,7 @@ html , body{
             transform: scale(1.2);
 }
 
-
+*/
     
 
 
@@ -181,9 +181,10 @@ html , body{
     border-radius: 100%;
     width: 183px;
     height: 175px;
+    transition: 2000s;
 }
 
-.modal {
+.modal{
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
@@ -214,11 +215,11 @@ html , body{
     position: relative;
 }
 
-#myPopup{
+.myPopup{
     vertical-align: middle;
     
 }
-#myPopup span img{
+.myPopup span img{
     float: left;
     width: 191px;
     border-radius: 100%;
@@ -226,7 +227,7 @@ html , body{
     position: relative;
 }
 
-#myPopup h2{
+.myPopup h2{
 position: relative;
     left: 92px;
 }
