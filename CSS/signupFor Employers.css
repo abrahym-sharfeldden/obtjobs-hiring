@@ -20,7 +20,7 @@
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: rgb(75,59,125);
+    background-color: #605191;
 }
 
 
@@ -111,7 +111,7 @@ input:focus{
 button {
   text-transform: uppercase;
   outline: 0;
-  background-color: rgb(75,59,125);
+  background-color: #605191;
   width: 88%;
   border: 0;
   padding: 15px;
@@ -131,7 +131,7 @@ button {
   text-decoration: none;
 }
 body {
-  background-color: rgb(75,59,125);   
+  background-color: #605191;   
 }
 p {
   padding-bottom: 3%;
