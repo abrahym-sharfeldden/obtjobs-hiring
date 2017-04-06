@@ -75,7 +75,7 @@
 }
 #page-info {
     background: white;
-    width: 50%;
+    width: 52%;
     margin: auto;
     text-align: center;
     padding: auto;
@@ -120,7 +120,7 @@ a:hover {
 }
 .card {
     background: #ffffff;
-    height: 560px;
+    height: 320px;
     width: 100%;
     position: relative;
     border-radius: 3px;
@@ -153,7 +153,7 @@ a:hover {
     left: .1em;
 }
 .image-and-name {
-    width: 80%;
+    width: 55%;
     padding: 20px 10px;
     margin: auto;
     display: inline-block;
@@ -208,9 +208,11 @@ a:hover {
     z-index: 500;
     background: #c4c5c4;
 }
+
 #stats td {
     padding: 0.25rem .25em .35rem .5rem;
 }
+
 #stats td:first-child {
     font-size: 1.1rem;
     display: block;
