@@ -89,7 +89,8 @@ input {
 }
 input:focus{
   color: white;
-  background-color: rgba(75,59,125, .9);
+  background-color: #E8E5DD;
+  outline: 0;
 }
 
 .left{
