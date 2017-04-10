@@ -1,4 +1,4 @@
-html , body{
+ html , body{
   margin: 0px;
     height: 1024px;
     width: 100%;
@@ -62,10 +62,12 @@ html , body{
  }
 
 
+ 
 
-
-.login {
-  width: 40%;
+ 
+.signup {
+  width: 75%;
+  max-width: 700px;
   padding: 8% 0 0;
   margin: auto;
 }
@@ -80,9 +82,8 @@ html , body{
 }
 input {
   background: #f2f2f2;
-  width: 90%;
   border: 0;
-  margin: 15px 5%;
+  margin: 8px 0;
   padding: 3%;
   box-sizing: border-box;
   font-size: 14px;
@@ -92,18 +93,27 @@ input:focus{
   background-color: #E8E5DD;
   outline: 0;
 }
+
+.left{
+  width: 42%;
+  margin-right: 2%;
+}
+.right{
+ width: 42%;
+}
 button {
   text-transform: uppercase;
   outline: 0;
   background-color: #605191;
-  width: 90%;
+  width: 88%;
   border: 0;
   padding: 15px;
   color: white;
   cursor: pointer;
   font-size: 14px;
-  margin: 4% 0;
+  margin: 2% 0;
 }
+
 .message {
   margin: 15px 0 0;
   color: grey;
@@ -114,7 +124,7 @@ button {
   text-decoration: none;
 }
 body {
-background-color: #605191;
+  background-color: #605191;   
 }
 p {
   padding-bottom: 3%;
