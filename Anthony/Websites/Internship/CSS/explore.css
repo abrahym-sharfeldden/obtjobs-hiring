@@ -1,0 +1,256 @@
+html , body{
+  margin: 0px;
+    height: 1024px;
+    width: 100%;
+    position: absolute;
+    overflow-x: hidden;
+   
+}
+
+* {
+    font-family: 'myFirstFont';
+}
+
+@font-face {
+    font-family: 'myFirstFont';
+    src: url(../fonts/brandon-grot/Brandon_reg.otf);
+}
+
+@font-face {
+    font-family: 'mySecondFont';
+    src: url(../fonts/brandon-grot/Brandon_thin.otf);
+}
+
+#Nav{
+  width:100%;
+  height: 50px; 
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(75,59,125);
+}
+
+#navbar{
+  
+  width: 100%;
+    height: 100%;
+    font-size: 15px;
+    font-family: Times 
+    font-weight: bold;
+    text-align: center;
+    color: white;  
+}
+
+#navbar ul, li{
+    height: auto;
+    text-align: center;
+    display: inline;
+    padding-right: 15px;
+}
+
+#navbar li a{
+  text-decoration: none;
+    color: white;
+}
+
+#menu{
+  padding-bottom: 25px;
+    padding-top: 15px;
+    padding-right: 15px;
+  float: right;
+  position: relative; 
+}
+
+body {
+  background-color: white;
+}
+
+
+
+
+
+
+
+
+
+#filter {
+	background-color: rgb(75,59,125);
+	color: white;
+	font-size: 28px;
+	padding-top: 1%;
+	text-align: center;
+}
+button.accordion {
+    background-color: #eee;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd; 
+}
+
+div .panel {
+    padding: 0 18px;
+    display: none;
+}
+
+#filter-content {
+	color: black;
+	width: 100%;
+	display: inline-block;
+	margin: 0 4% 1% 4%;
+}
+
+#filter-content ul {
+	text-align: left;
+}
+
+#first-filter {
+	width: 30%;
+	height: 90%;
+	border: 1px solid black;
+	float: left;
+	background-color: white;
+	margin-right: 1%;
+}
+
+#second-filter {
+	width: 30%;
+	height: 90%;
+	border: 1px solid black;
+	float: left;
+	background-color: white;
+	margin-right: 1%;
+}
+
+#third-filter {
+	width: 30%;
+	height: 90%;
+	border: 1px solid black;
+	float: left;
+	background-color: white;
+}
+
+#filter-content li {
+	font-size: .5em;
+}
+
+
+
+
+
+
+
+
+
+#onfilter {
+	background-color: #c6ce45;
+	margin-bottom: 2%;
+	padding: .01%;
+}
+#onfilter li {
+	margin-left: 1%;
+}
+#onfilter img {
+	width: 1%;
+}
+#onfilter a {
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content{
+	width: 100%;
+	padding:0;
+	color: black;
+	font-family: 'mySecondFont';
+}
+.profile-container{
+	width: 100%;
+	height: 250px;
+	margin-left: 15%;
+}
+.profile-picture{
+	z-index: 1;
+	float: left;
+}	
+.profile-picture img{
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+}
+.profile-info{
+	width: 40%;
+	height: 200px;
+	padding-left: 2%;
+	border: 1px solid black;
+	border-right: none;
+	text-align: center;
+	float: left;
+	background-color: rgba(230, 230, 230, 0.5);
+}
+#links{
+	width: 10%;
+	height: 200px;
+	float: left;
+	border: 1px solid black;
+	border-left: none;
+	text-align: center;
+	background-color: rgba(230, 230, 230, 0.5);
+}
+#links img {
+	width: 70px;
+	margin-top: 10%;
+}
+.profile-info-container{
+	background-color: white;
+	margin: 0;
+	font-size: .8em;
+}
+#cool{
+	background-color: white;
+	outline: 0;
+	border: 0;
+	margin-top: 3%;
+}
+#cool button {
+	background-color: #c6ce45;
+	color: white;
+	margin-bottom: 1%;
+	outline: 0;
+	border: 0;
+	padding: 5px;
+	color: black;
+	cursor: pointer;
+	font-size: 16px;
+	margin-right: 20px;
+	margin-top: 4%;
+}
+
+
+
+
+
+
+
+

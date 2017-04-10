@@ -7,7 +7,7 @@ body {
 header {
 	height: 71px;
 	width: 100%;
-	background-color: #605191;
+	background-color: rgb(75,59,125);
 }
 
 * {
@@ -24,46 +24,92 @@ header {
 	src: url('../Brandon Grotesque/Brandon_med_it.otf');
 }
 
-#logo img {
-	height: 50px;
-	width: auto;
-	padding-left: 92px;
-	padding-top: 9px;
-}
-
-#main-content {
-	height: 618px;
-}
-
-#main-content img {
-	height: 618px;
+#Nav {
 	width: 100%;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(75,59,125);
 }
 
-#content {
+#navbar {
+	width: 100%;
+    height: 100%;
+    font-size: 15px;
+    font-family: Times font-weight: bold;
+    text-align: right;
+    color: white;
+}
+
+#navbar ul {
 	height: auto;
-    width: 100%;
-    background-color: #605191;
-    padding-top: 27px;
-    padding-bottom: 29px;
+    min-height: text-align: center;
+    display: inline;
+    padding-right: 15px;
+}
+
+#navbar li {
+	height: auto;
+    min-height: text-align: center;
+    display: inline;
+    padding-right: 15px;
+}
+
+#content_title {
+	text-align: center;
 }
 
 #account {
 	text-align: right;
     position: relative;
-    bottom: 600px;
+    bottom: 1453px;
 }
 
 .accounts {
 	display: inline-block;
-     background-color:rgba(96,81,145,0.8);
+     background-color: rgba(75,59,125);
     padding: 20px;
     margin-right: 20px;
     border-radius: 5px;
-    padding-top: 1px;
+    padding-top: 129px;
     padding-bottom: 1px;
     color: white;
 }
+
+.accounts h2{
+	font-size: 20px;
+}
+#main-content {
+	height: 487px;
+}
+
+#main-content img {
+	height: 487px;
+	width: 100%;
+	opacity: 0.7;
+}
+
+#text {
+	text-align: right;
+    position: relative;
+    bottom: 350px;
+    padding-right: 140px;
+    color: rgb(75,59,125);
+    font-size: 31px;
+    line-height: 26px;
+    text-shadow: 3px 3px #000000;
+}
+
+#content {
+	height: auto;
+    width: 100%;
+    background-color: white;
+    padding-top: 1px;
+    padding-bottom: 0px;
+}
+
+
 
 #image img {
 	height: 604px;
@@ -77,36 +123,71 @@ header {
 }
 
 #profiles ul {
-	text-align: left;
+	text-align: center;
+    margin-left: 102px;
 }
 
 .trainees {
-	height: 384px;
-    width: 288px;
-    background-color: white;
+    width: 492px;
+    background-color: #cdcdcd;
     z-index: 1;
     display: inline-table;
-    margin: 20px;
-    padding-top: 5px;
-    border-radius: 20px;
-    height: 370px;
-
+    margin: 17px;
+    padding-top: 19px;
+    padding: 0px;
+    height: 200px;
+    cursor: pointer;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    border-radius: 5px;
+    border: black;
+    border-style: solid;
+    border-width: 2px;
+    
 
    
 }
 
+/*
+#content_contanier:hover .profile_div{
+    background-color: gray;
+    opacity: .25;
+    -webkit-transform: scale(.8);
+       -moz-transform: scale(.8);
+        -ms-transform: scale(.8);
+         -o-transform: scale(.8);
+            transform: scale(.8);
+}
+#content_contanier .profile_div:hover {
+    background-color:white;
+    box-shadow: none;
+    opacity: 10;
+    -webkit-transform: scale(1.2);
+       -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+         -o-transform: scale(1.2);
+            transform: scale(1.2);
+}
+*/
+
 .trainees img {
-	height: 198px;
-    width: 198px;
-    border-radius: 100%;
-    position: relative;
-    bottom: 31px;
-	border-radius: 100%
+	border-radius: 100%;
+    width: 170px;
+    height: 170px;
+    transition: 2000s;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+    float: left;
 }
 
 .trainees h1 {
 	color: black;
 	line-height: 0px;
+	font-family: "Pt sans narrow";
 }
 
 .trainees h5{
@@ -119,6 +200,10 @@ header {
 	color: black;
 	font-family: "mySecondFont";
 	font-size: 24px;
+	font-size: 22px;
+    padding: 0px;
+    margin-left: 22px;
+    margin-right: 22px;
 }
 
 .trainees p{
@@ -129,9 +214,9 @@ header {
 .skill {
 	display: inline-block;
     font-size: 20px;
-    padding: 5px;
+    padding: 3px;
     margin: 4px;
-    background-color: #605191;
+    background-color: rgb(75,59,125);
     color: white;
     font-weight: bolder;
     box-shadow: 3px 6px 5px #888888;
@@ -140,18 +225,22 @@ header {
 #buttons {
 	text-align: center;
     position: relative;
-    top: -180px;   
+    bottom: 129px;   
 }
 
 .button {
 	display: inline-block;
-    background-color:rgba(96,81,145,0.8);
+    background-color: #cdcdcd;
     padding: 20px;
     margin-right: 20px;
     border-radius: 5px;
     padding-top: 1px;
     padding-bottom: 1px;
     color: white;
+    border: black;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 4px 4px 24px #000000;
 
 
 }
@@ -165,6 +254,8 @@ header {
 
 #graduates {
 	text-align: center;
+	padding-top: 22px;
+	height: 92px
 }
 
 #skills {
@@ -185,6 +276,8 @@ header {
 #testimonial_top {
 	text-align: center;
 	color: #605191;
+	padding-bottom: 1px;
+    padding-top: 1px;
 }
 
 #testimonials {
@@ -290,6 +383,25 @@ padding-left: 130px;
 ;
 }
 
+#social_media {
+	height: auto;
+	width: 100%;
+	text-align: right;
+}
+
+.media_icon {
+	margin-right: 42px;
+	color: white;
+}
+
+.media_icon img {
+	height: 50px;
+    width: 50px;
+    padding-left: 1px;
+    margin-left: 4px;
+
+}
+
 input{
 	margin-top: 40px;
 	height: 26px;
@@ -305,6 +417,73 @@ input[type=text]:focus {
 
 #bad{
 	position: relative;
-	top:17px;
+	top:23px;
 }
 
+
+/* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.modal{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    -webkit-animation-name: fadeIn; /* Fade in the background */
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    height: 350px;
+    width: 539px;
+    padding: 24px 80px;
+    margin: auto;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s;
+    margin-top: 200px;
+    position: relative;
+}
+
+.myPopup{
+    vertical-align: middle;
+    
+}
+.myPopup span img{
+    float: left;
+    height: 181px;
+    width: 181px;
+    border-radius: 100%;
+    bottom: 52px;
+    position: relative;
+}
+
+.myPopup h2{
+position: relative;
+    left: 92px;
+}
+
+#links img {
+    height: 50px;
+    width: 50px;
+    padding: 8px;
+}

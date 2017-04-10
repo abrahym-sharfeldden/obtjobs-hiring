@@ -6,41 +6,39 @@
 </head>
 <body>
 	<header>
-		<div id="logo">
-			<img src="http://obtjobs.wpengine.com/wp-content/uploads/2015/09/obt_2line_white1.png">
+		<div id="Nav">
+			<div id="navbar">
+				<ul>
+				  <li><img src="http://obtjobs.wpengine.com/wp-content/uploads/2015/09/obt_2line_white1.png" style=" height: 50px; float: left; padding-left: 50px"/></li>
+				  <span id="menu"><li><a href="">About Us</a></li>
+				  <li><a href="">Our Impact</a></li>
+				  <li><a href="">Programs</a></li>
+				  <li><a href="">Become a Participant</a></li>
+				  <li><a href="">Hire OBT Graduates</a></li>
+				  <li><a href="">Donate</a></li></span>
+				</ul>
+			</div>
 		</div>
-
 	</header>
 
 		<div id="main-content">
 
 			<img src="images/slack-imgs.jpg">
+			<div id="text">
+				<h1>Hire Our Graduates</h1>
 
-			<div id="account">
-				<div class="accounts">
-					<h2>Log In</h2>
-				</div>
-				<div class="accounts">
-					<h2>Sign Up</h2>
-				</div>
+				<p>Our trainees are ready to make a difference in your</p>
 			</div>
-
-			<div id="buttons">
-				<div class="button">
-					<h2>Explore Candidates</h2>
-				</div>
-				<div class="button">
-					<h2>Employee Testimonials</h2>
-				</div>
-			</div>
-
-		</div>
+		</div>		
 
 		<div id="content">
 			<div id="profiles">
-				<div class="trainees">
+				<div class="trainees blur" onclick="popup1()">
 					<img src="images/Pixelstudioproductions.com-10.jpg">
-						<h1>John Doe</h1>
+						<h1>Maximiliano Martinez</h1>
+
+						<h3>"Do what you love and it won't feel like a job"</h3>
+
 						<h3>Skills:</h3>
 					<ul>
 						<li class="skill">Google</li>
@@ -49,9 +47,10 @@
 						
 					</ul>
 				</div>
-				<div class="trainees">
+				<div class="trainees blur" onclick="popup2()">
 					<img src="images/Business-Professional-Headshots-00018.jpg">
-						<h1>John Doe</h1>
+						<h1>Keturah Raymond</h1>
+						<h3>"Do what you love and it won't feel like a job"</h3>
 						<h3>Skills:</h3>
 					<ul>
 						<li class="skill">Word</li>
@@ -59,9 +58,10 @@
 						<li class="skill">Outlook</li>
 					</ul>
 				</div>
-				<div class="trainees">
+				<div class="trainees blur" onclick="popup3()">
 					<img src="images/0b45787b843edccca9feb244129ad466.jpg">
-						<h1>John Doe</h1>
+						<h1>Keturah Raymond</h1>
+						<h3>"Do what you love and it won't feel like a job"</h3>
 						<h3>Skills:</h3>
 					<ul>
 						<li class="skill">Microsoft</li>
@@ -69,9 +69,10 @@
 						<li class="skill">Google</li>
 					</ul>
 				</div>
-				<div class="trainees">
+				<div class="trainees blur" onclick="popup4()">
 					<img src="images/el-paso-business-portriat-photographer-13.jpg">
-						<h1>John Doe</h1>
+						<h1>Keturah Raymond</h1>
+						<h3>"Do what you love and it won't feel like a job"</h3>
 						<h3>Skills:</h3>
 					<ul>
 						<li class="skill">Word</li>
@@ -79,9 +80,10 @@
 						<li class="skill">Powerpoint</li>
 					</ul>
 				</div>
-				<div class="trainees">
+				<div class="trainees blur" onclick="popup5()">
 					<img src="images/professional-headshots-san-francisco-31.jpg">
-						<h1>John Doe</h1>
+						<h1>Elliot Chen</h1>
+						<h3>"Do what you love and it won't feel like a job"</h3>
 						<h3>Skills:</h3>
 					<ul>
 						<li class="skill">Excel</li>
@@ -89,21 +91,143 @@
 						<li class="skill">Microsoft</li>
 					</ul>
 				</div>
-				<div class="trainees">
+				<div class="trainees blur" onclick="popup6()">
 					<img src="images/Headshots-Austin-TX-0001.jpg">
-						<h1>John Doe</h1>
-						<h3>Skills:</h3>
+						<h1>Kenyai Hill</h1>
+						<h3>"Do what you love and it won't feel like a job"</h3>
+						<h3>Skills:</h3>		
 					<ul>
 						<li class="skill">Access</li>
 						<li class="skill">Google</li>
 						<li class="skill">Microsoft</li>
 					</ul>
 				</div>
+
+				<div id="myModal" class="modal" onclick="close1()">				
+					<div class="modal-content myPopup" style="vertical-align: middle;" >
+							<h1><strong>Maximiliano Martinez</strong></h1>
+							<h2>Programmer</h2>
+							<span><img src="images/Pixelstudioproductions.com-10.jpg"></></span>
+							<p> "I am an aspiring Web Developer with an eye for detail and passion for efficient user experiences. 
+							I want to challenge myself at learning more advanced and technical languages."</p>
+							<div id="links">
+								<img src="images/Phone-128.png">
+								<img src="images/Email-128.png">
+								<img src="images/Linkedin_icon.png">
+								<img src="images/Twitter-128.png">
+								<img src="images/github-icon.png">
+							</div>
+				    </div>
+				</div>
+				<div id="myModal1" class="modal" onclick="close2()">				
+					<div class="modal-content myPopup" style="vertical-align: middle;" >
+							<h1><strong>Keturah Raymond</strong></h1>
+							<h2>Web Developer</h2>
+							<span><img src="images/Business-Professional-Headshots-00018.jpg"></span>
+							<p> "I am an aspiring Web Developer with an eye for detail and passion for efficient user experiences. 
+							I want to challenge myself at learning more advanced and technical languages."</p>
+							<div id="links">
+								<img src="images/Phone-128.png">
+								<img src="images/Email-128.png">
+								<img src="images/Linkedin_icon.png">
+								<img src="images/Twitter-128.png">
+								<img src="images/github-icon.png">
+							</div>
+				    </div>
+				</div>
+				<div id="myModal2" class="modal" onclick="close3()">				
+					<div class="modal-content myPopup" style="vertical-align: middle;" >
+							<h1><strong>Keturah Raymond</strong></h1>
+							<h2>Real Estate Lawyer</h2>
+							<span><img  src="images/0b45787b843edccca9feb244129ad466.jpg"></span>
+							<p> "I am an aspiring Web Developer with an eye for detail and passion for efficient user experiences. 
+							I want to challenge myself at learning more advanced and technical languages."</p>
+							<div id="links">
+								<img src="images/Phone-128.png">
+								<img src="images/Email-128.png">
+								<img src="images/Linkedin_icon.png">
+								<img src="images/Twitter-128.png">
+								<img src="images/github-icon.png">
+							</div>
+				    </div>
+				</div>
+				<div id="myModal3" class="modal" onclick="close4()">				
+					<div  class="modal-content myPopup" style="vertical-align: middle;" >
+							<h1><strong>Keturah Raymond</strong></h1>
+							<h2>A Boss</h2>
+							<span><img src="images/el-paso-business-portriat-photographer-13.jpg"></span>
+							<p> "I am an aspiring Web Developer with an eye for detail and passion for efficient user experiences. 
+							I want to challenge myself at learning more advanced and technical languages."</p>
+							<div id="links">
+								<img src="images/Phone-128.png">
+								<img src="images/Email-128.png">
+								<img src="images/Linkedin_icon.png">
+								<img src="images/Twitter-128.png">
+								<img src="images/github-icon.png">
+							</div>
+				    </div>
+				</div>
+				<div id="myModal4" class="modal" onclick="close5()">				
+					<div class= "modal-content myPopup" style="vertical-align: middle;" >
+							<h1><strong>Elliot Chen</strong></h1>
+							<h2>That Guy</h2>
+							<span><img src="images/professional-headshots-san-francisco-31.jpg"></span>
+							<p> "I am an aspiring Web Developer with an eye for detail and passion for efficient user experiences. 
+							I want to challenge myself at learning more advanced and technical languages."</p>
+							<div id="links">
+								<img src="images/Phone-128.png">
+								<img src="images/Email-128.png">
+								<img src="images/Linkedin_icon.png">
+								<img src="images/Twitter-128.png">
+								<img src="images/github-icon.png">
+							</div>
+				    </div>
+				</div>
+				<div id="myModal5" class="modal"  onclick="close6()">				
+					<div class="modal-content myPopup" style="vertical-align: middle;" >
+							<h1><strong>Kenyai Hill</strong></h1>
+							<h2>Mr.Smooth</h2>
+							<span><img src="images/Headshots-Austin-TX-0001.jpg"></span>
+							<p> "I am an aspiring Web Developer with an eye for detail and passion for efficient user experiences. 
+							I want to challenge myself at learning more advanced and technical languages."</p>
+							<div id="links">
+								<img src="images/Phone-128.png">
+								<img src="images/Email-128.png">
+								<img src="images/Linkedin_icon.png">
+								<img src="images/Twitter-128.png">
+								<img src="images/github-icon.png">
+							</div>
+				    </div>
+				</div>
+			</div>
+
+
+				<div id="account">
+					<div class="accounts">
+						<a href="pages/login.html">
+							<h2>Log In</h2>
+						</a>	
+					</div>
+					<div class="accounts">
+						<a href="pages/signup.html">
+							<h2>Sign Up</h2>
+						</a>
+							
+					</div>
+				</div>
+					<br>
+			<div id="buttons">
+				<div class="button">
+					<a href="pages/explore.html">
+						<h2>Explore Candidates</h2>
+					</a>
+				</div>
+				<div class="button">
+					<h2>Employee Testimonials</h2>
+				</div>
 			</div>
 		</div>	
-		<br>
-		
-
+	
 	<div id="hire">
 		<div id="graduates">
 			<h1>HIRE OBT GRADUATES</h1>
@@ -128,53 +252,54 @@
 				<p>Invest in the potential of young people to grow and make a difference in your business</p>
 			</div>
 		</div>
-
+	</div>
 	
 		<div id="testimonial_top">
 			<h1>EMPLOYER TESTIMONIALS</h1>
 		</div>
-<div id="content3">
-	<div id="testimonials">	
+	
+
+	<div id="content3">
+		<div id="testimonials">	
+			<div class="testimonial">
+				<p>"Dynamex continues to partner with OBT due to the level of service they provide employers. They are adapt at fulfilling large job orders with qualified and eager candidates in a very short time. Many of the candidates we've hired from OBT have been promoted within the company due to their professionalism and dedication." 
+				<br>
+				<br>
+				- Richard Brown, Facility Manager at Dynamex Inc</p>
+				<img src="images/dynamex.png">
+			</div>
+		
 		<div class="testimonial">
-			<p>“Dynamex continues to partner with OBT due to the level of service they provide employers. They are adapt at fulfilling large job orders with qualified and eager candidates in a very short time. Many of the candidates we’ve hired from OBT have been promoted within the company due to their professionalism and dedication.”
+			<p>"The employment specialists at OBT are terrific at matching the appropriate candidates to the roles available at our company. Through this successful partnership our organization has hired numerous candidates for various positions including customer service representatives, facilities associates, and maintenance assistants.
 			<br>
 			<br>
-			– Richard Brown, Facility Manager at Dynamex Inc</p>
-			<br>
-			<img src="images/dynamex.png">
-		</div>
-		<div class="testimonial">
-			<p>“The employment specialists at OBT are terrific at matching the appropriate candidates to the roles available at our company. Through this successful partnership our organization has hired numerous candidates for various positions including customer service representatives, facilities associates, and maintenance assistants.
+			Our organization continues to seek out candidates referred from OBT's programs due to their superior work ethic, dedication and professionalism on the job. Many of the candidates we've hired from OBT have stayed with the organization for years and advanced at the company to hold a variety of positions."
 			<br>
 			<br>
-			Our organization continues to seek out candidates referred from OBT’s programs due to their superior work ethic, dedication and professionalism on the job. Many of the candidates we’ve hired from OBT have stayed with the organization for years and advanced at the company to hold a variety of positions.”
-			<br>
-			<br>
-			– Frank Lambert, Director of Talent Acquisition, The Bachrach Group, Ltd.</p>
+			- Frank Lambert, Director of Talent Acquisition, The Bachrach Group, Ltd.</p>
 			
 			<img src="images/bachrach-group.png">
 		</div>
-
+		</div>
 	</div>
 	
 	<div id="testimonials2">	
 		<div class="testimonial">
-			<p>“We love partnering with Opportunities for a Better Tomorrow to hire candidates for Fresh Direct. It’s a great program and we look forward to partnering with them more in the future.”
+			<p>"We love partnering with Opportunities for a Better Tomorrow to hire candidates for Fresh Direct. It's a great program and we look forward to partnering with them more in the future."
 			<br>
 			<br>
-			– Larry Scott Blackmon, Vice President Public Affairs at Fresh Direct</p>
-			<br>
+			- Larry Scott Blackmon, Vice President Public Affairs at Fresh Direct</p>
 			<img src="images/freshdirect.png">
 		</div>
 		<div class="testimonial">
-			<p>“OBT prepares their candidates for office and clerical work exceptional well. In addition, it is evident that the staff at OBT really cares about their clients’ future and success. People Care routinely uses OBT when hiring new staff as we can be assured that their candidates have computer and customer service skills in addition to a professional appearance and demeanor.
+			<p>"OBT prepares their candidates for office and clerical work exceptional well. In addition, it is evident that the staff at OBT really cares about their clients' future and success. People Care routinely uses OBT when hiring new staff as we can be assured that their candidates have computer and customer service skills in addition to a professional appearance and demeanor.
 			<br>
 			<br>
-			Since 2010, People care has hired over a hundred candidates referred to us from OBT for numerous positions including Office Clerks, Receptionists, Personnel Specialists, Payroll Clerks, Recruiters, File Clerks, Data Entry Clerks, Compliance Coordinators and Clerical Assistants. All these candidates are integral to our daily business function as a home healthcare agency.”
+			Since 2010, People care has hired over a hundred candidates referred to us from OBT for numerous positions including Office Clerks, Receptionists, Personnel Specialists, Payroll Clerks, Recruiters, File Clerks, Data Entry Clerks, Compliance Coordinators and Clerical Assistants. All these candidates are integral to our daily business function as a home healthcare agency."
 			<br>
 			<br>
-			– Judy King, Director of Operations at People Care</p>
-			<br>
+			- Judy King, Director of Operations at People Care</p>
+			
 			<img src="images/people-care.png">
 		</div>
 	</div>
@@ -231,9 +356,92 @@
 			request to individuals with disablities.</p>
 		</div>
 	</div>	
+
+	<div id="social_media">
+		<div class="media_icon">
+		 	<img src="images/Twitter_Rounded-128.png">
+		 	<img src="images/Facebook_Rounded-128.png">
+		 	<img src="images/LinkedIn_Rounded-128.png">
+		 	<img src="images/Youtube_Rounded-128.png">
+		 	<img src="images/Google_Rounded-128.png">
+		</div>
+	</div>
 	</footer>
 	
 </div>
+
+<script type="text/javascript">
+			var profiles = document.getElementsByClassName("trainees");
+			var blur = document.getElementsByClassName("blur");
+			var x = document.getElementsByClassName("modal");
+			var modal0 = document.getElementById("myModal");
+			var modal1 = document.getElementById("myModal1");
+			var modal2 = document.getElementById("myModal2");
+			var modal3 = document.getElementById("myModal3");
+			var modal4 = document.getElementById("myModal4");
+			var modal5 = document.getElementById("myModal5");
+			var box = document.getElementById("box1");
+			var popup_boxes = new Array("modal0","modal1","modal2","modal3","modal4","modal5")
+			function popup1(){
+	    		modal0.style.display = "block";
+				}
+			function popup2(){
+	    		modal1.style.display = "block";
+				}
+			function popup3(){
+	    		modal2.style.display = "block";
+				}
+			function popup4(){
+	    		modal3.style.display = "block";
+				}
+			function popup5(){
+	    		modal4.style.display = "block";
+				}
+			function popup6(){
+	    		modal5.style.display = "block";
+				}
+				
+			function close1(){
+	    		modal0.style.display = "none";
+				}
+			function close2(){
+	    		modal1.style.display = "none";
+				}
+			function close3(){
+	    		modal2.style.display = "none";
+				}
+			function close4(){
+	    		modal3.style.display = "none";
+				}
+			function close5(){
+	    		modal4.style.display = "none";
+				}
+			function close6(){
+	    		modal5.style.display = "none";
+				}
+			   for(i=0; i < profiles.length; i++){
+				    	profiles[i].onmouseover = function(){
+				    		blur[0].style.filter = "blur(5px)";
+				    		blur[1].style.filter = "blur(5px)";
+				    		blur[2].style.filter = "blur(5px)";
+							blur[3].style.filter = "blur(5px)";
+							blur[4].style.filter = "blur(5px)";
+				    		blur[5].style.filter = "blur(5px)";
+				    		this.style.filter = "none";
+				    	}
+				    	profiles[i].onmouseout = function(){
+				    		blur[0].style.filter = "none";
+				    		blur[1].style.filter = "none";
+				    		blur[2].style.filter = "none";
+							blur[3].style.filter = "none";
+							blur[4].style.filter = "none";
+				    		blur[5].style.filter = "none";
+				    		
+				    	}
+			    }
+			    
+			    
+		</script>
 
 
 </body>

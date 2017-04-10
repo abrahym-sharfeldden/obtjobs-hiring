@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="../css/explore.css">
+</head>
+
+<body>
+<div id="top">
+	<div id="Nav">
+		<div id="navbar">
+		  <ul>
+			<li><img src="http://obtjobs.wpengine.com/wp-content/uploads/2015/09/obt_2line_white1.png" style=" height: 50px; float: left; padding-left: 50px"/></li>
+			<span id="menu"><li><a href="">About Us</a></li>
+			<li><a href="">Our Impact</a></li>
+			<li><a href="">Programs</a></li>
+			<li><a href="">Become a Participant</a></li>
+			<li><a href="../index.html">Hire OBT Graduates</a></li>
+			<li><a href="">Donate</a></li></span>
+		  </ul>
+		</div>
+	</div>
+
+	<div id="filter">
+		<p>PICK STUDENTS WHO ARE RIGHT FOR YOU!!!</p>
+		<div id="filter-content">
+			<div id="first-filter">
+				<button class="accordion">Skills</button>
+				<div class="panel">
+					<ul>
+						<input type="checkbox"><li>HTML</li><br>
+						<input type="checkbox"><li>CSS</li><br>
+						<input type="checkbox"><li>PHP</li><br>
+						<input type="checkbox"><li>Javascript</li><br>
+					</ul>
+				</div>
+			</div>
+			<div id="second-filter">
+				<button class="accordion">Boroughs</button>
+				<div class="panel">
+					<ul>
+						<input type="checkbox"><li>Queens</li><br>
+						<input type="checkbox"><li>Brooklyn</li><br>
+						<input type="checkbox"><li>Manhattan</li><br>
+					</ul>
+				</div> 
+			</div>
+			<div id="third-filter">
+				<button class="accordion">Hours</button>
+				<div class="panel">
+					<ul>
+						<input type="checkbox"><li>Full Time</li><br>
+						<input type="checkbox"><li>Part Time</li><br>
+					</ul>
+				</div> 		
+			</div>
+		</div>
+	</div>
+
+		
+	<div id="onfilter">
+		<ul>
+			<li>You are here :</li>
+			<a href="#"><li>Web Design & Coding</li></a>
+			<img src="../images/play.png">
+			<a href="#"><li>Brooklyn</li></a>
+			<img src="../images/play.png">
+			<a href="#"><li>Full Time</li></a>
+		</ul>
+	</div>	
+</div>
+	
+	<div class="content">
+		<div class="profile-container">
+			<div class="profile-picture">
+			  <img src="../images/file_720.jpg">  
+			</div>
+
+			<div class="profile-info">
+				<div class="profile-info-container">
+					<h1>Max Martinez</h1>
+					<h2>Web Design and Coding Fundamentals</h2>
+					<div id="cool">
+						<button disabled >Javascript</button>
+						<button disabled >HTML/CSS</button>
+						<button disabled >Photoshop</button>
+					</div>
+				</div>
+			</div>
+
+			<div id="links">
+				<img src="../images/github-icon.png">
+				<img src="../images/Linkedin_icon.png">
+			</div>
+		</div>
+	</div>
+
+
+	<div class="content">
+		<div class="profile-container">
+			<div class="profile-picture">
+			  <img src="../images/file_720.jpg">  
+			</div>
+
+			<div class="profile-info">
+				<div class="profile-info-container">
+					<h1>Max Martinez</h1>
+					<h2>Web Design and Coding Fundamentals</h2>
+					<div id="cool">
+						<button disabled >Javascript</button>
+						<button disabled >HTML/CSS</button>
+						<button disabled >Photoshop</button>
+					</div>
+				</div>
+			</div>
+			
+			<div id="links">
+				<img src="../images/github-icon.png">
+				<img src="../images/Linkedin_icon.png">
+			</div>
+		</div>
+	</div>
+
+
+	<div class="content">
+		<div class="profile-container">
+			<div class="profile-picture">
+			  <img src="../images/file_720.jpg">  
+			</div>
+
+			<div class="profile-info">
+				<div class="profile-info-container">
+					<h1>Max Martinez</h1>
+					<h2>Web Design and Coding Fundamentals</h2>
+					<div id="cool">
+						<button disabled >Javascript</button>
+						<button disabled >HTML/CSS</button>
+						<button disabled >Photoshop</button>
+					</div>
+				</div>
+			</div>
+			
+			<div id="links">
+				<img src="../images/github-icon.png">
+				<img src="../images/Linkedin_icon.png">
+			</div>
+		</div>
+	</div>
+
+		
+	<div class="content">
+		<div class="profile-container">
+			<div class="profile-picture">
+			  <img src="../images/file_720.jpg">  
+			</div>
+
+			<div class="profile-info">
+				<div class="profile-info-container">
+					<h1>Max Martinez</h1>
+					<h2>Web Design and Coding Fundamentals</h2>
+					<div id="cool">
+						<button disabled >Javascript</button>
+						<button disabled >HTML/CSS</button>
+						<button disabled >Photoshop</button>
+					</div>
+				</div>
+			</div>
+			
+			<div id="links">
+				<img src="../images/github-icon.png">
+				<img src="../images/Linkedin_icon.png">
+			</div>
+		</div>
+	</div>
+
+<script>
+	var acc = document.getElementsByClassName("accordion");
+	var i;
+
+	for (i = 0; i < acc.length; i++) {
+		acc[i].onclick = function(){
+			this.classList.toggle("active");
+			var panel = this.nextElementSibling;
+			if (panel.style.display === "block") {
+				panel.style.display = "none";
+			} else {
+				panel.style.display = "block";
+			}
+		}
+	}
+</script>
+	
+	
+	
+</body>
+</html>
+
